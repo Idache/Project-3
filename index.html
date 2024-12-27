@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play wth js</title>
+</head>
+<body>
+
+    <button>click</button>
+
+    <audio id="song">
+        <source src="my-sound.mp3">
+    </audio>
+  <script src="app.js">
+    window.addEventListener('click', () => {
+        document.getElementById("song").play();
+    });
+  </script>
+</body>  
+</html>
